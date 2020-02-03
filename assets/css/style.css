@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*, a {  
+  font-family: 'Montserrat', sans-serif;
+}
+#nav {
+    color: #F7D622;
+    background-color: #1B2629;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #F7D622;
+}
+
+#titulo {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#descricao {
+    font-size: 12px;
+    color: #707070;
+}
+
+.text-car p {
+    font-size: 15px;
+}
+
+.text-car h1 {
+    color: #F7D622;
+    font-weight: 900;
+}
+
+.car-control {
+    height: 75px;
+    width: 50px;
+    background-color: #CCC;
+}
+
+.card-image {
+    border: none;
+}
+
+.button-see {
+    background-color: #F7D622;
+    color: #1B2629;
+    border: 2px solid #1B2629;
+    border-radius: 1px;
+    width: 175px;
+    cursor: pointer;
+}
+
+.button-see strong {
+    font-size: 15px;
+    color: #000;
+    font-weight: 900;
+}
+
+.menu-rodape {
+    display: inline;
+    word-wrap: unset;
+}
+
+footer {
+    background-color: #1B2629;
+    color: #CCC;
+    margin-top: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #CCC;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #CCC;
+}
+
+footer li {
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+.pos-rodape {
+    background-color: #37474b;
+    height: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+    footer p {
+        text-align: center;
+    }
+
+    .menu-rodape p {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #img-logo {
+        display: flex;
+        justify-content: center;
+    }
+}
